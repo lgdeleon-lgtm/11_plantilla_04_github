@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Antigua Guatemala Weadding 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("/images/wedding_couple.jpg")}
+.bgimg2 {background-image: url("/images/weadding_party.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Jane & John</h1>
+    <h2>The Weadding</h2>
+    <h2><b>17.07.2025</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+    <a href="#message" style="width:25%" class="w3-bar-item w3-button w3-hover-black">A Message</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Jane & John</b></h1>
+    <img class="w3-round w3-grayscale-min" src="/images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
+    <p><i>You all know us. And we all know you. We are getting married! After years of friendship and countless unforgettable memories together, we've decided to take the next step and start this incredible journey as husband and wife. We are thrilled to share this special moment with you, the people who have been part of our story from the beginning. Your love, support, and laughter have shaped who we are today, and we couldn't imagine celebrating without you by our side. Thank you for being an essential part of our lives and for making this day so meaningful to us.</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Thank you for coming</h1><br>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="/images/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>Photo Highlights</h2>
+        <p>Check out our favorite moments from the big day</p> 
+      </div>
+      <div class="w3-half">
+        <h2>Thank You</h2>
+          <p>We are forever grateful for your love and support on our special day</p>      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="message">
+  <h1>ANTIGUA GUATEMALA</h1>
+  <p class="w3-large">July 17, 2025 in Antigua Guatemala</p>
+  <p> A beautiful day surrounded by family and friends</p>
+  <p> Kindly Respond By January, 2017</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">MESSAGE</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">LEAVE US A MESSAGE</h1>
+      <p>Thank you for your interest in our wedding!</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Message" name="message">
+      </form>
+      <p><i>Sincerely, John & Jane</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
